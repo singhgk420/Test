@@ -16,6 +16,7 @@ data "aws_ami" "ubuntu" {
   }
  provider "aws" {
   region = "us-east-1"
-   shared_credentials_file = "/home/gauravsingh/.aws/"
-   profile = "testing"
+   shared_credentials_file = "/home/gauravsingh/.aws/credentials"
+   shared_config_file ="/home/gauravsingh/.aws/config"
+   profile = "default"
 }
