@@ -15,10 +15,6 @@ data "aws_ami" "ubuntu" {
   }
   }
   provider "aws" {
-    assume_role {
-    role_arn     = "arn:aws:iam::035615149871:user/gaurav.admin"
-    session_name = "SESSION_NAME"
-    external_id  = "EXTERNAL_ID"
-  }
+
   region = "us-east-1"
 }
