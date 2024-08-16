@@ -18,3 +18,4 @@ data "aws_ami" "ubuntu" {
      
      region = "us-east-1"  
 }
+ ram is a boy git 
