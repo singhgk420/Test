@@ -19,4 +19,3 @@ data "aws_ami" "ubuntu" {
      region = "us-east-1"  
 }
 
-RAm is a good boy
